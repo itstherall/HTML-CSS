@@ -1,0 +1,5 @@
+tecnicas de aplicações das CSS
+
+1. Inline (tudo feito na mesma linha dos HTMLs)
+2. Locais / Internos
+3.

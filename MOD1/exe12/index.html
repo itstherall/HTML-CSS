@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias</title>
+</head>
+<body>
+    <h1>Medias gerais</h1>
+
+    <h2>Reproduzindo áudios</h2>
+    <p>Vamos colocar um audio para reproduzir no nosso site.</p>
+
+    <!--Maneira mais facil-->
+    <audio src="audios/Arabian Nightfall (Sting) - Doug Maxwell_Media Right Productions.mp3" controls autoplay></audio>
+
+    <!--MP3 WAV OGG-->
+
+    <!--Maneira mais assertiva para o audio ser compativel com o navegador-->
+
+    <audio preload="metadata" controls>
+        <source srcset="exe12/audios/bornrockstar.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2>Videos</h2>
+    <p>Vamos colocar videos para reproduzir no nosso site. Videos hospedados localmente.</p>
+    <p>Este video está hospedado localmente no meu servidor.</p>
+
+    <!--A problematica do custo de trafego de dados e o aumento do preço da hospedagem-->
+    <!--Pode colocar posters dentro da tag video, que é a capa do video-->
+    <video width="250" controls>
+        <source srcset="exe12/videos/cafeGelo.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+    </video>
+
+    <!--Serviços de hospdagem gratuito de video, exemplo Youtube(solução pratica)-->
+    <p>Inserindo videos do youtube!!!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nxu4fY6LtS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--Vai setinha de compartilhar e depois no incorporar, que ja te da um codigo do html-->
+
+</body>
+</html>
